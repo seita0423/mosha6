@@ -1,0 +1,164 @@
+.wrapper {
+  max-width: 1200px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+a {
+  list-style: none;
+  text-decoration: none;
+  color: inherit;
+}
+img {
+  max-width: 100%;
+}
+ul {
+  list-style: none;
+}
+
+nav {
+  background-color: black;
+
+}
+nav  ul {
+
+  display: flex;
+ 
+  color: white;
+  padding: 8px 0px;
+}
+
+
+nav li {
+  padding: 0 16px;
+}
+.ue {
+  display: flex;
+  justify-content: space-between;
+  margin: 32px auto;
+}
+.waid{
+padding-right: 16px;
+}
+.waid a {
+  text-align: center;
+}
+.pickup article {
+  width: 32%;
+}
+.pickup article h2 {
+font-size: 1rem;
+/* margin: 8px 0 8px ; */
+}
+.pickup p {
+  text-align: center;
+}
+.clam {
+  display: flex;
+}
+.clam article ul {
+  display: flex;
+  margin:0;
+  padding: 16px 0;
+}
+main {
+  width: 65%;
+}
+
+aside {
+  width: 33%;
+}
+aside h3 {
+  text-align: center;
+}
+.author {
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.author img{
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin: 0 auto; 
+}
+.archive {
+  margin-bottom: 60px;
+}
+.archive h3{
+  padding: 16px;
+}
+.archive ul {
+  border-top: solid 1px #777;
+
+}
+.archive li {
+  border-bottom: solid 1px #777;
+  padding: 8px;
+}
+
+
+footer {
+  background-color: #ccc;
+}
+footer  h3{
+padding: 8px  0;
+}
+.menu-list {
+  border-top:solid 1px #777;
+
+}
+.menu-list li{
+  border-bottom:solid 1px #777;
+  padding: 8px;
+
+}
+.content {
+  display: flex;
+  /* justify-content: space-between; */
+  justify-content: center;
+  gap: 0 40px;
+}
+.item {
+  width: 30%;
+  margin-right: 32px;
+
+}
+.item p {
+  padding: 16px 0
+  ;
+}
+
+/* SPデザイン */
+
+@media screen and (max-width: 767px ){
+  .pickup {
+    flex-direction: column;
+    /* padding-top: 140px; */
+  }
+  .pickup article {
+    /* width: 100%; */
+    margin-bottom: 30px;
+  }
+
+  .clam {
+    flex-direction: column;
+  }
+  article {
+    width: 100%;
+
+  }
+main {
+  width: 100%;
+}
+  aside {
+    width: 100%;
+  }
+  .content {
+    flex-direction: column;
+  }
+footer .item {
+  width: 100%;
+}
+}
